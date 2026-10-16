@@ -1,0 +1,56 @@
+{
+  "combo": "nest-fastify@node",
+  "framework": "nest-fastify",
+  "runtime": "node",
+  "scenario": "user-create",
+  "median": {
+    "rps": 8263.8718838837,
+    "p50": 7.783,
+    "p90": 8.832,
+    "p99": 11.342,
+    "max": 51.055,
+    "ok": 165228,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 11738.649335470573,
+      "p50": 5.44,
+      "p90": 6.805,
+      "p99": 8.907,
+      "max": 18.773,
+      "ok": 234756,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 8263.8718838837,
+      "p50": 7.783,
+      "p90": 8.832,
+      "p99": 11.342,
+      "max": 51.055,
+      "ok": 165228,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 6839.879435623834,
+      "p50": 9.372,
+      "p90": 10.127,
+      "p99": 12.961,
+      "max": 77.422,
+      "ok": 136759,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 273,
+  "cpuPct": 101,
+  "startupMs": 413,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

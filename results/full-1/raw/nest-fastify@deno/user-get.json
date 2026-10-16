@@ -1,0 +1,56 @@
+{
+  "combo": "nest-fastify@deno",
+  "framework": "nest-fastify",
+  "runtime": "deno",
+  "scenario": "user-get",
+  "median": {
+    "rps": 8650.629655035158,
+    "p50": 7.397,
+    "p90": 8.812,
+    "p99": 10.806,
+    "max": 19.979,
+    "ok": 172974,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 12676.295357596446,
+      "p50": 4.965,
+      "p90": 6.469,
+      "p99": 8.219,
+      "max": 17.386,
+      "ok": 253503,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 8650.629655035158,
+      "p50": 7.397,
+      "p90": 8.812,
+      "p99": 10.806,
+      "max": 29.467,
+      "ok": 172974,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 7122.111242993825,
+      "p50": 9.045,
+      "p90": 10.347,
+      "p99": 12.5,
+      "max": 19.979,
+      "ok": 142398,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 279,
+  "cpuPct": 104,
+  "startupMs": 411,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

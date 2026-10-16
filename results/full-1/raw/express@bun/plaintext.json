@@ -1,0 +1,56 @@
+{
+  "combo": "express@bun",
+  "framework": "express",
+  "runtime": "bun",
+  "scenario": "plaintext",
+  "median": {
+    "rps": 72983.73088253316,
+    "p50": 0.82,
+    "p90": 0.951,
+    "p99": 1.697,
+    "max": 4.962,
+    "ok": 1459817,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 76911.11499077493,
+      "p50": 0.776,
+      "p90": 0.921,
+      "p99": 1.602,
+      "max": 4.963,
+      "ok": 1538397,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 72983.73088253316,
+      "p50": 0.82,
+      "p90": 0.951,
+      "p99": 1.697,
+      "max": 3.994,
+      "ok": 1459817,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 66630.24663247491,
+      "p50": 0.903,
+      "p90": 1.051,
+      "p99": 1.864,
+      "max": 4.962,
+      "ok": 1332748,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 121,
+  "cpuPct": 99,
+  "startupMs": 105,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

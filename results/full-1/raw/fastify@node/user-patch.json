@@ -1,0 +1,56 @@
+{
+  "combo": "fastify@node",
+  "framework": "fastify",
+  "runtime": "node",
+  "scenario": "user-patch",
+  "median": {
+    "rps": 8695.331329643866,
+    "p50": 7.363,
+    "p90": 8.383,
+    "p99": 10.727,
+    "max": 66.938,
+    "ok": 173866,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 13602.061388014043,
+      "p50": 4.672,
+      "p90": 6.028,
+      "p99": 7.704,
+      "max": 16.706,
+      "ok": 272020,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 8695.331329643866,
+      "p50": 7.363,
+      "p90": 8.383,
+      "p99": 10.727,
+      "max": 66.938,
+      "ok": 173866,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 6911.495356438955,
+      "p50": 9.273,
+      "p90": 10.06,
+      "p99": 12.746,
+      "max": 95.494,
+      "ok": 138187,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 200,
+  "cpuPct": 101,
+  "startupMs": 212,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

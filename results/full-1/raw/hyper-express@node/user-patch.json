@@ -1,0 +1,56 @@
+{
+  "combo": "hyper-express@node",
+  "framework": "hyper-express",
+  "runtime": "node",
+  "scenario": "user-patch",
+  "median": {
+    "rps": 8611.17232697072,
+    "p50": 7.432,
+    "p90": 8.513,
+    "p99": 11.013,
+    "max": 21.347,
+    "ok": 172192,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 13269.08158670522,
+      "p50": 4.82,
+      "p90": 6.17,
+      "p99": 7.931,
+      "max": 13.978,
+      "ok": 265350,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 8611.17232697072,
+      "p50": 7.432,
+      "p90": 8.513,
+      "p99": 11.013,
+      "max": 21.347,
+      "ok": 172192,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 6871.937805728282,
+      "p50": 9.264,
+      "p90": 10.397,
+      "p99": 13.35,
+      "max": 23.623,
+      "ok": 137397,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 205,
+  "cpuPct": 103,
+  "startupMs": 209,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

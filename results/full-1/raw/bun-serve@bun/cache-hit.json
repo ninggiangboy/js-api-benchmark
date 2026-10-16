@@ -1,0 +1,56 @@
+{
+  "combo": "bun-serve@bun",
+  "framework": "bun-serve",
+  "runtime": "bun",
+  "scenario": "cache-hit",
+  "median": {
+    "rps": 43524.571448967705,
+    "p50": 1.408,
+    "p90": 1.854,
+    "p99": 2.414,
+    "max": 6.326,
+    "ok": 870523,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 46103.82913522785,
+      "p50": 1.334,
+      "p90": 1.739,
+      "p99": 2.256,
+      "max": 4.638,
+      "ok": 922064,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 43524.571448967705,
+      "p50": 1.408,
+      "p90": 1.854,
+      "p99": 2.414,
+      "max": 6.921,
+      "ok": 870523,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 39442.659535999315,
+      "p50": 1.546,
+      "p90": 2.066,
+      "p99": 2.725,
+      "max": 6.326,
+      "ok": 788902,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 100,
+  "cpuPct": 97,
+  "startupMs": 105,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

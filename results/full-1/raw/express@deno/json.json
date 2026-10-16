@@ -1,0 +1,56 @@
+{
+  "combo": "express@deno",
+  "framework": "express",
+  "runtime": "deno",
+  "scenario": "json",
+  "median": {
+    "rps": 35507.45806237222,
+    "p50": 1.707,
+    "p90": 1.875,
+    "p99": 3.756,
+    "max": 7.821,
+    "ok": 710191,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 37873.86954584101,
+      "p50": 1.611,
+      "p90": 1.727,
+      "p99": 3.551,
+      "max": 7.744,
+      "ok": 757524,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 35507.45806237222,
+      "p50": 1.707,
+      "p90": 1.875,
+      "p99": 3.756,
+      "max": 7.821,
+      "ok": 710191,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 35071.87692427045,
+      "p50": 1.75,
+      "p90": 1.879,
+      "p99": 3.794,
+      "max": 8.301,
+      "ok": 701463,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 196,
+  "cpuPct": 114,
+  "startupMs": 209,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

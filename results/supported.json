@@ -1,0 +1,112 @@
+{
+  "node-http@node": {
+    "ok": true
+  },
+  "node-http@bun": {
+    "ok": true
+  },
+  "node-http@deno": {
+    "ok": true
+  },
+  "bun-serve@bun": {
+    "ok": true
+  },
+  "deno-serve@deno": {
+    "ok": true
+  },
+  "express@node": {
+    "ok": true
+  },
+  "express@bun": {
+    "ok": true
+  },
+  "express@deno": {
+    "ok": true
+  },
+  "fastify@node": {
+    "ok": true
+  },
+  "fastify@bun": {
+    "ok": true
+  },
+  "fastify@deno": {
+    "ok": true
+  },
+  "koa@node": {
+    "ok": true
+  },
+  "koa@bun": {
+    "ok": true
+  },
+  "koa@deno": {
+    "ok": true
+  },
+  "hapi@node": {
+    "ok": true
+  },
+  "hapi@bun": {
+    "ok": true
+  },
+  "hapi@deno": {
+    "ok": true
+  },
+  "nest-express@node": {
+    "ok": true
+  },
+  "nest-express@bun": {
+    "ok": true
+  },
+  "nest-express@deno": {
+    "ok": true
+  },
+  "nest-fastify@node": {
+    "ok": true
+  },
+  "nest-fastify@bun": {
+    "ok": true
+  },
+  "nest-fastify@deno": {
+    "ok": true
+  },
+  "hono@node": {
+    "ok": true
+  },
+  "hono@bun": {
+    "ok": true
+  },
+  "hono@deno": {
+    "ok": true
+  },
+  "elysia@node": {
+    "ok": true
+  },
+  "elysia@bun": {
+    "ok": true
+  },
+  "elysia@deno": {
+    "ok": true
+  },
+  "h3@node": {
+    "ok": true
+  },
+  "h3@bun": {
+    "ok": true
+  },
+  "h3@deno": {
+    "ok": true
+  },
+  "uws@node": {
+    "ok": true
+  },
+  "uws@bun": {
+    "ok": false,
+    "reason": "process exited early:       at /Users/ninggiangboy/Develops/side-project/benchmark/dist/apps/uws/main.js:57:42 |  | Bun v1.4.3 (macOS arm64)"
+  },
+  "hyper-express@node": {
+    "ok": true
+  },
+  "hyper-express@bun": {
+    "ok": false,
+    "reason": "process exited early:       at <anonymous> (/Users/ninggiangboy/Develops/side-project/benchmark/node_modules/hyper-express/index.js:4:7) |  | Bun v1.4.3 (macOS arm64)"
+  }
+}

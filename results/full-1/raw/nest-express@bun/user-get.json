@@ -1,0 +1,56 @@
+{
+  "combo": "nest-express@bun",
+  "framework": "nest-express",
+  "runtime": "bun",
+  "scenario": "user-get",
+  "median": {
+    "rps": 11600.921399433604,
+    "p50": 5.452,
+    "p90": 6.933,
+    "p99": 8.683,
+    "max": 15.959,
+    "ok": 231967,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 16252.556508224205,
+      "p50": 3.88,
+      "p90": 5.152,
+      "p99": 6.722,
+      "max": 11.559,
+      "ok": 325038,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 11600.921399433604,
+      "p50": 5.452,
+      "p90": 6.933,
+      "p99": 8.683,
+      "max": 19.55,
+      "ok": 231967,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 9685.051922562012,
+      "p50": 6.505,
+      "p90": 8.207,
+      "p99": 10.115,
+      "max": 15.959,
+      "ok": 193665,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 192,
+  "cpuPct": 100,
+  "startupMs": 208,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

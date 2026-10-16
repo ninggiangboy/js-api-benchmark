@@ -1,0 +1,56 @@
+{
+  "combo": "node-http@node",
+  "framework": "node-http",
+  "runtime": "node",
+  "scenario": "json",
+  "median": {
+    "rps": 89228.70584728692,
+    "p50": 0.679,
+    "p90": 0.756,
+    "p99": 1.4,
+    "max": 11.605,
+    "ok": 1784848,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 89612.61715703314,
+      "p50": 0.675,
+      "p90": 0.756,
+      "p99": 1.393,
+      "max": 12.553,
+      "ok": 1792532,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 89228.70584728692,
+      "p50": 0.679,
+      "p90": 0.754,
+      "p99": 1.4,
+      "max": 11.605,
+      "ok": 1784848,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 84616.55473243863,
+      "p50": 0.714,
+      "p90": 0.802,
+      "p99": 1.477,
+      "max": 4.063,
+      "ok": 1692515,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 124,
+  "cpuPct": 98,
+  "startupMs": 210,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "combo": "deno-serve@deno",
+  "framework": "deno-serve",
+  "runtime": "deno",
+  "scenario": "cache-hit",
+  "median": {
+    "rps": 38864.38278210159,
+    "p50": 1.573,
+    "p90": 1.985,
+    "p99": 2.322,
+    "max": 6.978,
+    "ok": 777313,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 40422.37659707382,
+      "p50": 1.512,
+      "p90": 1.904,
+      "p99": 2.266,
+      "max": 5.321,
+      "ok": 808498,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 38864.38278210159,
+      "p50": 1.573,
+      "p90": 1.985,
+      "p99": 2.322,
+      "max": 7.969,
+      "ok": 777313,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 35785.49694194603,
+      "p50": 1.716,
+      "p90": 2.174,
+      "p99": 2.589,
+      "max": 6.978,
+      "ok": 715738,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 155,
+  "cpuPct": 95,
+  "startupMs": 104,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

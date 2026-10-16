@@ -1,0 +1,56 @@
+{
+  "combo": "node-http@bun",
+  "framework": "node-http",
+  "runtime": "bun",
+  "scenario": "cache-hit",
+  "median": {
+    "rps": 27495.268844658287,
+    "p50": 2.25,
+    "p90": 2.953,
+    "p99": 3.944,
+    "max": 12.119,
+    "ok": 549939,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 28076.979984471123,
+      "p50": 2.11,
+      "p90": 2.852,
+      "p99": 3.944,
+      "max": 12.119,
+      "ok": 561559,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 27495.268844658287,
+      "p50": 2.25,
+      "p90": 2.953,
+      "p99": 3.693,
+      "max": 7.833,
+      "ok": 549939,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 26533.2120016189,
+      "p50": 2.307,
+      "p90": 3.08,
+      "p99": 4.066,
+      "max": 13.675,
+      "ok": 530664,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 122,
+  "cpuPct": 101,
+  "startupMs": 106,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

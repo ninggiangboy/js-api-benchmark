@@ -1,0 +1,56 @@
+{
+  "combo": "fastify@bun",
+  "framework": "fastify",
+  "runtime": "bun",
+  "scenario": "plaintext",
+  "median": {
+    "rps": 81445.15703635497,
+    "p50": 0.709,
+    "p90": 0.973,
+    "p99": 1.682,
+    "max": 4.62,
+    "ok": 1629148,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 89566.830508134,
+      "p50": 0.666,
+      "p90": 0.776,
+      "p99": 1.388,
+      "max": 4.62,
+      "ok": 1791559,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 81445.15703635497,
+      "p50": 0.709,
+      "p90": 0.973,
+      "p99": 1.682,
+      "max": 4.39,
+      "ok": 1629148,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 41315.510953643825,
+      "p50": 1.59,
+      "p90": 1.964,
+      "p99": 3.418,
+      "max": 6.202,
+      "ok": 826350,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 122,
+  "cpuPct": 98,
+  "startupMs": 207,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

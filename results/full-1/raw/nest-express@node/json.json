@@ -1,0 +1,56 @@
+{
+  "combo": "nest-express@node",
+  "framework": "nest-express",
+  "runtime": "node",
+  "scenario": "json",
+  "median": {
+    "rps": 38936.628090365,
+    "p50": 1.58,
+    "p90": 1.718,
+    "p99": 3.191,
+    "max": 42.198,
+    "ok": 778795,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 38936.628090365,
+      "p50": 1.58,
+      "p90": 1.718,
+      "p99": 3.191,
+      "max": 42.251,
+      "ok": 778795,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 38847.42852132392,
+      "p50": 1.583,
+      "p90": 1.724,
+      "p99": 3.222,
+      "max": 39.881,
+      "ok": 777019,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 39363.706427352336,
+      "p50": 1.558,
+      "p90": 1.694,
+      "p99": 3.142,
+      "max": 42.198,
+      "ok": 787306,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 183,
+  "cpuPct": 99,
+  "startupMs": 309,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

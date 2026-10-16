@@ -1,0 +1,56 @@
+{
+  "combo": "elysia@deno",
+  "framework": "elysia",
+  "runtime": "deno",
+  "scenario": "posts-list",
+  "median": {
+    "rps": 5292.574284852564,
+    "p50": 11.18,
+    "p90": 19.546,
+    "p99": 35.524,
+    "max": 87.313,
+    "ok": 105803,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 5840.368846852229,
+      "p50": 8.712,
+      "p90": 21.96,
+      "p99": 43,
+      "max": 97.935,
+      "ok": 116758,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 5292.574284852564,
+      "p50": 11.18,
+      "p90": 19.345,
+      "p99": 35.524,
+      "max": 87.313,
+      "ok": 105803,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 4411.093178750864,
+      "p50": 14.291,
+      "p90": 19.546,
+      "p99": 26.908,
+      "max": 59.554,
+      "ok": 88177,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 180,
+  "cpuPct": 91,
+  "startupMs": 104,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

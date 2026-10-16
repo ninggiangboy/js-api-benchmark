@@ -1,0 +1,56 @@
+{
+  "combo": "node-http@deno",
+  "framework": "node-http",
+  "runtime": "deno",
+  "scenario": "plaintext",
+  "median": {
+    "rps": 40042.56358086252,
+    "p50": 1.545,
+    "p90": 1.824,
+    "p99": 2.57,
+    "max": 5.263,
+    "ok": 800873,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 47190.588523844985,
+      "p50": 1.327,
+      "p90": 1.475,
+      "p99": 2.189,
+      "max": 5.124,
+      "ok": 943872,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 40042.56358086252,
+      "p50": 1.545,
+      "p90": 1.824,
+      "p99": 2.57,
+      "max": 5.263,
+      "ok": 800873,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 36327.295693267566,
+      "p50": 1.769,
+      "p90": 1.909,
+      "p99": 2.808,
+      "max": 5.598,
+      "ok": 726625,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 173,
+  "cpuPct": 103,
+  "startupMs": 105,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

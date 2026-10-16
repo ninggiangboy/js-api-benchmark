@@ -1,0 +1,56 @@
+{
+  "combo": "hono@node",
+  "framework": "hono",
+  "runtime": "node",
+  "scenario": "plaintext",
+  "median": {
+    "rps": 84843.0542985262,
+    "p50": 0.714,
+    "p90": 0.8,
+    "p99": 1.483,
+    "max": 5.202,
+    "ok": 1697043,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 90047.08806279136,
+      "p50": 0.67,
+      "p90": 0.754,
+      "p99": 1.384,
+      "max": 11.996,
+      "ok": 1801093,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 84843.0542985262,
+      "p50": 0.714,
+      "p90": 0.8,
+      "p99": 1.483,
+      "max": 5.083,
+      "ok": 1697043,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 77328.18632464933,
+      "p50": 0.783,
+      "p90": 0.879,
+      "p99": 1.624,
+      "max": 5.202,
+      "ok": 1546701,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 128,
+  "cpuPct": 98,
+  "startupMs": 211,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

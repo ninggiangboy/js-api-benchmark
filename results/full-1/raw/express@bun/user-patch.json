@@ -1,0 +1,56 @@
+{
+  "combo": "express@bun",
+  "framework": "express",
+  "runtime": "bun",
+  "scenario": "user-patch",
+  "median": {
+    "rps": 11715.47241809445,
+    "p50": 5.386,
+    "p90": 6.786,
+    "p99": 8.699,
+    "max": 19.176,
+    "ok": 234293,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 16034.368149840517,
+      "p50": 3.963,
+      "p90": 5.147,
+      "p99": 6.623,
+      "max": 11.8,
+      "ok": 320668,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 11715.47241809445,
+      "p50": 5.386,
+      "p90": 6.786,
+      "p99": 8.699,
+      "max": 21.814,
+      "ok": 234293,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 9352.189257855056,
+      "p50": 6.695,
+      "p90": 8.414,
+      "p99": 10.589,
+      "max": 19.176,
+      "ok": 186995,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 166,
+  "cpuPct": 99,
+  "startupMs": 107,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

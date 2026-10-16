@@ -1,0 +1,11 @@
+node_modules
+dist
+bench/fixtures
+.DS_Store
+
+# Keep the full benchmark run (report + raw data); drop partial/scratch runs.
+results/*
+!results/full-1/
+!results/full-1.log
+!results/supported.json
+results/full-1/.k6-summary.json

@@ -1,0 +1,56 @@
+{
+  "combo": "express@node",
+  "framework": "express",
+  "runtime": "node",
+  "scenario": "plaintext",
+  "median": {
+    "rps": 49365.81963768946,
+    "p50": 1.233,
+    "p90": 1.457,
+    "p99": 2.519,
+    "max": 33.023,
+    "ok": 987427,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 50840.969880729914,
+      "p50": 1.215,
+      "p90": 1.303,
+      "p99": 2.451,
+      "max": 30.786,
+      "ok": 1016833,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 49365.81963768946,
+      "p50": 1.233,
+      "p90": 1.457,
+      "p99": 2.519,
+      "max": 33.023,
+      "ok": 987427,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 36419.84436182212,
+      "p50": 1.696,
+      "p90": 2.008,
+      "p99": 3.427,
+      "max": 38.761,
+      "ok": 728458,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 167,
+  "cpuPct": 98,
+  "startupMs": 210,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

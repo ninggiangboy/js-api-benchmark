@@ -1,0 +1,56 @@
+{
+  "combo": "fastify@deno",
+  "framework": "fastify",
+  "runtime": "deno",
+  "scenario": "plaintext",
+  "median": {
+    "rps": 67430.0528429958,
+    "p50": 0.891,
+    "p90": 0.969,
+    "p99": 2.625,
+    "max": 6.494,
+    "ok": 1348720,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 68557.98736752728,
+      "p50": 0.876,
+      "p90": 0.954,
+      "p99": 2.584,
+      "max": 6.993,
+      "ok": 1371308,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 67430.0528429958,
+      "p50": 0.891,
+      "p90": 0.969,
+      "p99": 2.625,
+      "max": 6.089,
+      "ok": 1348720,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 61547.080775224254,
+      "p50": 0.979,
+      "p90": 1.077,
+      "p99": 2.796,
+      "max": 6.494,
+      "ok": 1231061,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 196,
+  "cpuPct": 116,
+  "startupMs": 208,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

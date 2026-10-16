@@ -1,0 +1,56 @@
+{
+  "combo": "node-http@node",
+  "framework": "node-http",
+  "runtime": "node",
+  "scenario": "cache-hit",
+  "median": {
+    "rps": 30199.88835019187,
+    "p50": 1.976,
+    "p90": 2.68,
+    "p99": 3.154,
+    "max": 15.64,
+    "ok": 604044,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 33065.80653673205,
+      "p50": 1.786,
+      "p90": 2.44,
+      "p99": 2.948,
+      "max": 109.04,
+      "ok": 661356,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 30199.88835019187,
+      "p50": 1.976,
+      "p90": 2.68,
+      "p99": 3.154,
+      "max": 10.388,
+      "ok": 604044,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 26174.88037977879,
+      "p50": 2.265,
+      "p90": 3.04,
+      "p99": 3.662,
+      "max": 15.64,
+      "ok": 523500,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 171,
+  "cpuPct": 98,
+  "startupMs": 209,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "combo": "nest-express@deno",
+  "framework": "nest-express",
+  "runtime": "deno",
+  "scenario": "feed",
+  "median": {
+    "rps": 7693.787772940368,
+    "p50": 8.543,
+    "p90": 10.058,
+    "p99": 12.273,
+    "max": 25.527,
+    "ok": 153840,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 9806.971966737463,
+      "p50": 6.507,
+      "p90": 8.126,
+      "p99": 10.47,
+      "max": 31.369,
+      "ok": 196105,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 7693.787772940368,
+      "p50": 8.543,
+      "p90": 10.058,
+      "p99": 12.273,
+      "max": 24.978,
+      "ok": 153840,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 6499.5033720909505,
+      "p50": 10.207,
+      "p90": 11.85,
+      "p99": 14.407,
+      "max": 25.527,
+      "ok": 129943,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 294,
+  "cpuPct": 112,
+  "startupMs": 311,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}

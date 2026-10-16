@@ -1,0 +1,56 @@
+{
+  "combo": "elysia@node",
+  "framework": "elysia",
+  "runtime": "node",
+  "scenario": "cache-hit",
+  "median": {
+    "rps": 36844.4577838992,
+    "p50": 1.639,
+    "p90": 2.206,
+    "p99": 2.588,
+    "max": 16.576,
+    "ok": 736933,
+    "nonOk": 0,
+    "errors": 0
+  },
+  "reps": [
+    {
+      "rps": 42119.42445218649,
+      "p50": 1.435,
+      "p90": 1.935,
+      "p99": 2.304,
+      "max": 19.409,
+      "ok": 842451,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 36844.4577838992,
+      "p50": 1.639,
+      "p90": 2.206,
+      "p99": 2.588,
+      "max": 13.081,
+      "ok": 736933,
+      "nonOk": 0,
+      "errors": 0
+    },
+    {
+      "rps": 33791.086849919186,
+      "p50": 1.77,
+      "p90": 2.383,
+      "p99": 2.813,
+      "max": 16.576,
+      "ok": 675844,
+      "nonOk": 0,
+      "errors": 0
+    }
+  ],
+  "peakRssMb": 182,
+  "cpuPct": 97,
+  "startupMs": 218,
+  "config": {
+    "durationSec": 20,
+    "reps": 3,
+    "connections": 64
+  }
+}
