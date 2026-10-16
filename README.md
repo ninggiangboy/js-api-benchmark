@@ -1,5 +1,7 @@
 # JS web API framework benchmark
 
+**[Live report: results of the first full run](https://ninggiangboy.github.io/js-api-benchmark/)** · [raw data](results/full-1) · [summary.csv](docs/summary.csv)
+
 Benchmarks 14 server setups (Express, Fastify, Koa, Hapi, NestJS x2, Hono, Elysia, h3, uWebSockets.js,
 HyperExpress and three bare-runtime baselines) on every runtime that can run them (Node, Bun, Deno): 36 combos (34 runnable).
 Every combo implements the same API against the same Postgres/Redis data, each written the idiomatic way for
